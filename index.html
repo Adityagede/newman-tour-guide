@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Newman Tour Guide offers private Bali tours, flexible routes, hotel pickup, and authentic local experiences." />
+    <title>Newman Tour Guide | Private Bali Tours</title>
+  </head>
+
+  <body>
+    <header class="fixed left-0 top-0 z-50 w-full">
+      <nav class="container-custom flex h-20 items-center justify-between text-white">
+        <a href="/" class="text-lg font-bold tracking-wide">
+          Newman Tour Guide
+        </a>
+
+        <div class="hidden items-center gap-8 text-sm font-medium md:flex">
+          <a href="#home" class="hover:text-sky-200">Home</a>
+          <a href="#tours" class="hover:text-sky-200">Tours</a>
+          <a href="#about" class="hover:text-sky-200">About</a>
+          <a href="#contact" class="hover:text-sky-200">Contact</a>
+        </div>
+
+        <a href="#contact" class="hidden rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-sky-700 transition hover:bg-sky-50 md:inline-flex">
+          Book Now
+        </a>
+
+        <button class="md:hidden" aria-label="Open navigation menu">
+          ☰
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="relative min-h-screen overflow-hidden bg-slate-950">
+        <div class="absolute inset-0">
+          <img
+            src="/images/hero/bali-hero.webp"
+            alt="Beautiful Bali landscape"
+            class="h-full w-full object-cover opacity-70"
+          />
+          <div class="absolute inset-0 bg-gradient-to-b from-slate-950/60 via-slate-950/30 to-slate-950"></div>
+        </div>
+
+        <div class="container-custom relative flex min-h-screen items-center pt-24">
+          <div class="max-w-2xl text-white" data-aos="fade-up">
+            <p class="mb-4 inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium backdrop-blur-md">
+              Private Bali Tour Guide
+            </p>
+
+            <h1 class="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-7xl">
+              Explore Bali with a trusted local guide.
+            </h1>
+
+            <p class="mt-6 max-w-xl text-base leading-8 text-slate-200 sm:text-lg">
+              Discover Bali through private tours, flexible routes, hotel pickup, and authentic local experiences guided by Newman.
+            </p>
+
+            <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+              <a href="#tours" class="btn-primary">
+                Explore Packages
+              </a>
+
+              <a href="#contact" class="btn-secondary">
+                Book via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tours" class="section-padding bg-white">
+        <div class="container-custom">
+          <div class="max-w-2xl" data-aos="fade-up">
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-sky-600">
+              Popular Tours
+            </p>
+            <h2 class="mt-4 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
+              Start your Bali journey with our favorite routes.
+            </h2>
+          </div>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-3">
+            <article class="overflow-hidden rounded-3xl bg-slate-50 shadow-sm ring-1 ring-slate-200" data-aos="fade-up">
+              <div class="h-64 bg-sky-100"></div>
+              <div class="p-6">
+                <p class="text-sm font-medium text-sky-600">Ubud, Bali</p>
+                <h3 class="mt-2 text-xl font-bold text-slate-950">Ubud Private Tour</h3>
+                <p class="mt-3 text-sm leading-6 text-slate-600">
+                  Rice terrace, waterfall, temple, art village, and local culture in one flexible day trip.
+                </p>
+              </div>
+            </article>
+
+            <article class="overflow-hidden rounded-3xl bg-slate-50 shadow-sm ring-1 ring-slate-200" data-aos="fade-up" data-aos-delay="100">
+              <div class="h-64 bg-sky-100"></div>
+              <div class="p-6">
+                <p class="text-sm font-medium text-sky-600">Uluwatu, Bali</p>
+                <h3 class="mt-2 text-xl font-bold text-slate-950">Uluwatu Sunset Tour</h3>
+                <p class="mt-3 text-sm leading-6 text-slate-600">
+                  Cliff temple, beach view, sunset, and optional Kecak dance experience.
+                </p>
+              </div>
+            </article>
+
+            <article class="overflow-hidden rounded-3xl bg-slate-50 shadow-sm ring-1 ring-slate-200" data-aos="fade-up" data-aos-delay="200">
+              <div class="h-64 bg-sky-100"></div>
+              <div class="p-6">
+                <p class="text-sm font-medium text-sky-600">Kintamani, Bali</p>
+                <h3 class="mt-2 text-xl font-bold text-slate-950">Kintamani Volcano Tour</h3>
+                <p class="mt-3 text-sm leading-6 text-slate-600">
+                  Mountain view, local coffee, temple visit, and scenic countryside drive.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
