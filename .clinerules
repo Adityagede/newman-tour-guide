@@ -1,0 +1,39 @@
+You are helping build Newman Tour Guide, a real Bali private tour guide website.
+
+Tech stack:
+- Vite
+- Tailwind CSS
+- Vanilla JavaScript
+- AOS
+- Swiper JS
+
+Project direction:
+- This is a real website for a Bali private tour guide.
+- The website should be modern, premium, fast, responsive, SEO-friendly, and suitable for Google indexing.
+- The first version should use WhatsApp booking, not a payment gateway.
+- Laravel may be added later, but do not add Laravel now.
+
+Strict rules:
+- Do not use React, Vue, Next.js, Laravel, or any backend unless explicitly requested.
+- Do not add unnecessary dependencies.
+- Do not rewrite the entire project unless explicitly requested.
+- Do not delete existing files without explaining why.
+- Do not change the tech stack.
+- Do not create fake features that are not requested.
+- Do not create a full website in one step.
+
+Coding style:
+- Use semantic HTML.
+- Use mobile-first responsive design.
+- Use Tailwind utility classes.
+- Keep JavaScript modular and simple.
+- Use clean section-based structure.
+- Optimize for SEO, accessibility, image performance, and readability.
+- Use WebP images from /public/images.
+- Use meaningful alt text for images.
+
+Workflow:
+- Plan first before editing.
+- Work section by section.
+- Explain what files will be edited before editing.
+- After editing, summarize what changed.
